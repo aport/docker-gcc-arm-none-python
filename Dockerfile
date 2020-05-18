@@ -1,4 +1,4 @@
-FROM cimg/python:2.7
+FROM cimg/python:3.7
 LABEL maintainer="Adam Porter <porter.adam@gmail.com>"
 LABEL Description="Image for building ARM Cortex-M projects with gcc-arm-embedded and Python"
 WORKDIR /work
