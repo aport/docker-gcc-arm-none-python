@@ -8,4 +8,5 @@ RUN apt update -qq && \
       python3 \
       python3-pip && \
     apt clean -qq && \
-    pip3 install imgtool
+    pip3 install imgtool \
+    pip3 install junit_xml
